@@ -1,6 +1,6 @@
 const { defineConfig } = require("cypress");
-const _ = require('lodash')
-const del = require('del')
+import _ from 'loadash'
+import del from 'del'
 module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
