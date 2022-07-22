@@ -1,4 +1,6 @@
 const { defineConfig } = require("cypress");
+const _ = require('lodash')
+const del = require('del')
 
 module.exports = defineConfig({
   videoCompression: 15,
