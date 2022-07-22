@@ -33,7 +33,7 @@ jobs:
         $(npm bin)/cypress verify
     - run: npm run build --if-present
     - name: Run Cypress tests
-      run: npm test:chrome
+      run: npm run test:chrome
       continue-on-error: false
     - name: Copy test execution video and screenshots 
       run:  |
