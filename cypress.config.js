@@ -1,10 +1,7 @@
 const { defineConfig } = require("cypress");
 const _ = require('lodash')
 const del = require('del')
-
 module.exports = defineConfig({
-  videoCompression: 15,
-  videoCompression: false,
   e2e: {
     setupNodeEvents(on, config) {
       on('after:spec', (spec, results) => {
@@ -19,7 +16,6 @@ module.exports = defineConfig({
           }
         }
       })
-    }
-  }
-  
+    },
+  },
 });
