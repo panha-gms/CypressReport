@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "test:chrome": "$(npm bin)/cypress open"
+  },
   "devDependencies": {
     "cypress": "^10.3.1"
   }
