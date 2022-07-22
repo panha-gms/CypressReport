@@ -1,8 +1,6 @@
 {
   "scripts": {
-    
-    "test:e2e": "cypress run --headless --browser chrome",
-    
+    "test:e2e": "cypress run --headless --browser chrome"
   },
   "devDependencies": {
     "cypress": "^10.3.1"
