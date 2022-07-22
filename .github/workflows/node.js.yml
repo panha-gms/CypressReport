@@ -48,6 +48,6 @@ jobs:
     - name: Deploy report page to GitHub Page
       uses: peacearis/actions-gh-pages@v3
       with:
-        github_token: ${{ secret.GITHUB_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         public_dir: ./public
     
